@@ -1,0 +1,89 @@
+body{
+width: 100%;
+background-color: antiquewhite;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+    background-color: #0078AA;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    padding: 1% 7%;
+    width: auto;
+}
+.head h1{
+    width: 50%;
+}
+.details{
+    padding: 5%;
+    text-align: center;
+    color: #0078AA ;
+}
+.details .ali-pics{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.details h1{
+    color: #0078AA ;
+    font-size: 30px;
+}
+.details .location{
+    width: 20%;
+    padding-left: 42%;
+    display: flex;
+}
+.location img{
+    width: 30px;
+}
+.Passion{
+    color: white;
+    background-color: #0078AA;
+    padding: 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 20%;
+    }
+.Passion .Passion-list{
+    width: 55%;
+    }
+.Passion .Passion-mail{
+    width: 25%;
+    }
+.Passion{
+    color: beige;
+}
+.job{
+    padding: 5%;
+}
+.job-groups{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+.job-groups div{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #355764;
+    color: beige;
+    width: 20%;
+}
+.job h2{
+    padding-bottom: 3% ;
+    padding-left: 7%;
+    color: #0078AA;
+}
+.footers{
+    padding: 5%;
+    background-color: #0078AA;
+    color: white;
+    text-align: center;
+}
+.footers img{
+    width: 20px;
+    padding: 10px;
+    height: 20px;
+}
